@@ -39,5 +39,7 @@ def main():
     mnist = input_data.read_data_sets("./data/",one_hot=True)
     mnist_test(mnist)
 
+
+
 if __name__ == '__main__':
     main()
